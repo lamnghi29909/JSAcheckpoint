@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/signup-signin.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="infor">
+            <p>Đăng kí tài khoản</p>
+        </div>
+        <div class="type">
+            <form action="#" name="dangKi" onsubmit="return valide()">
+                Email   
+                <input type="text" name="gmail" placeholder="Email">
+                <p id="loiGmail" style="display: none;">Cần nhập Gmail</p>
+                Fullname
+                <input type="text" name="name" id="" placeholder="Name">
+                <p id="loiName" style="display: none;">Cần nhập ten</p>
+                Password
+                <input type="password" name="pass" placeholder="Pass">
+                <p id="loipass" style="display: none;">Cần nhập Password</p>
+                Re-Password
+                <input type="password" name="repass" placeholder="Re-pass">
+                <p id="loirepass" style="display: none;">Cần nhập repass </p>
+                <br> 
+                <button>Đăng kí</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>

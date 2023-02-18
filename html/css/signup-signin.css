@@ -1,0 +1,59 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #feece7;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+.infor span {
+    text-align: center;
+}
+.infor p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#loiGmail {
+    color: red;
+    font-size: 15px;
+    font-weight: normal;
+}
+#loipass {
+    color: red;
+    font-size: 15px;
+    font-weight: normal;
+}
+#loirepass {
+    color: red;
+    font-size: 15px;
+    font-weight: normal;
+}
+#loiName {
+    color: red;
+    font-size: 15px;
+    font-weight: normal;
+}
+.type a {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+button {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+}
+input {
+    background-color: #e1bebe;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 300px;
+    border-radius: 20px;
+}
