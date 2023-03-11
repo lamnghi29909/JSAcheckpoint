@@ -1,0 +1,14 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+#show {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.two {
+    display: flex;
+}
+.item:hover {
+    color: red;
+}

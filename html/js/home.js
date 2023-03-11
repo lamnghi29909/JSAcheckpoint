@@ -70,8 +70,10 @@ const array = [
         comment12 : "Hộp 4 viên socola tươi Bonbons + Thanh socola bark",
     },    
 ];
+
+
 function showProduct(data) {
-    let Product_item = document.querySelector(".baiviet")
+    let Product_item = document.querySelector(".baiviet" )
     // Product_item.innerHTML = "";
     if (Product_item) {
         for (let item of data) {
@@ -129,6 +131,15 @@ function mainProduct() {
 }
 mainProduct();
 
+
+const listProduct = [
+    {
+        id : 1,
+        img : "img/asset 8.jpeg",
+        name : "Gourmet Love Chocolate/ Romantic Heart - S01",
+        price : "625.000"
+    }
+]
 
 
 

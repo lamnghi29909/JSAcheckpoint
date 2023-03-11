@@ -1,0 +1,15 @@
+.comment button {
+    border-radius: 5px;
+    width: 45px;
+    height: 47px;
+    font-size: 20px;
+    margin-left: -5px;
+    background-color: white;
+    
+}
+.comment input {
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: -6px;
+}

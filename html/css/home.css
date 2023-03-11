@@ -3,7 +3,7 @@
 }
 .container {
     width: 1510px;
-    background-color: #fddfbc;;
+    background-color: #ffe9cf;;
 }
 .container .img1 img {
     width: 30px;
@@ -118,7 +118,9 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .bai-con .baiviet .comment {
+    padding-left: 30px;
     text-align: center;
+    width: 200px;
 }
 .bai-con .baiviet .anh img {
     width: 257px;
@@ -174,33 +176,33 @@
 .heading {
     font-size: 25px;
 }
-.socola-thanh .baiviet1  {
+.socola-thanh .baiviet  {
     display: flex;
     margin-left: -40px;
 }
-.socola-thanh .a-baiviet1 {
+.socola-thanh .a-baiviet {
     text-decoration: none;
     color: rgb(113, 110, 110);
     padding-left: 10px;
 }
-.socola-thanh .a-baiviet1:hover {
+.socola-thanh .a-baiviet:hover {
     text-decoration: underline;
 }
-.socola-thanh .baiviet1 .bai {
+.socola-thanh .baiviet .bai {
     width: 257px;
     height: 400px;
     margin: 30px;
     border-radius: 10px;
     box-shadow: 0 1px 1px 0 rgba(219, 203, 203, 0.2), 0 2px 10px 0 rgba(78, 75, 75, 0.19);
 }
-.socola-thanh .baiviet1 .cmt {
+.socola-thanh .baiviet .comment {
     text-align: center;
 }
-.socola-thanh .baiviet1 .img img {
+.socola-thanh .baiviet .anh img {
     width: 257px;
     border-radius: 10px ;
 }
-.socola-thanh .baiviet1 .img img:hover {
+.socola-thanh .baiviet .anh img:hover {
     transform: scale(1.05);
 }
 .socola-thanh button {
