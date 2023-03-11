@@ -1,4 +1,4 @@
-function valide() {
+function dangnhap() {
     var _pass = document.dangKi.pass.value;
     var _gmail = document.dangKi.gmail.value;
 
@@ -26,3 +26,38 @@ if (kiemtra) {
     return kiemtra;
 } else return kiemtra;
 }
+
+const listArrTk = [
+    {
+        tk : "nghi",
+        mk : 1
+    }
+];
+
+//thêm list tài khoản vào local
+let newList = JSON.parse(localStorage.getItem("login"));
+console.log(newList);
+if(newList == null) {
+    localStorage.setItem("login",JSON.stringify(listArrTk))
+}
+localStorage.clear()
+const login= ()=>{
+    let tk = document.querySelector(".gmail");
+    let mk =    document.querySelector(".pass");
+    for(let item of newList) {
+        if((item.tk==tk.value) && (item.mk==mk.value)) {
+            window.location.href = "home.html";
+        }
+    }
+}
+let form_login = document.querySelector("#login1");
+if(form_login) {
+    form_login.addEventListener("submit" , (e)=>{
+        e.preventDefault()
+        login();
+    })
+}
+
+
+
+

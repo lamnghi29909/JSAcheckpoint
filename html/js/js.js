@@ -1,4 +1,4 @@
-function valide() {
+function dangki() {
     var _name = document.dangKi.name.value;
     var _pass = document.dangKi.pass.value;
     var _gmail = document.dangKi.gmail.value;
@@ -16,25 +16,33 @@ if (!_name.match(ktten)) {
     kiemtra =false;
 } else {
     document.getElementById("loiName").style.display = "none";
+    console.log(_name)
 }
 
 
 if (!_pass.match(ktpass)) {
     document.getElementById("loipass").style.display = "block";
     kiemtra =false;
-} else document.getElementById("loipass").style.display = "none";
+} else { document.getElementById("loipass").style.display = "none";
+    console.log(_pass)
+}
 
 
 if (!_gmail.match(ktgmail)) {
     document.getElementById("loiGmail").style.display = "block";
     kiemtra =false;
-} else document.getElementById("loiGmail").style.display = "none";
+} else {
+    document.getElementById("loiGmail").style.display = "none";
+    console.log(_gmail)
+}
 
 if (!_repass.match(ktrpass)) {
     document.getElementById("loirepass").style.display = "block";
     kiemtra =false;
-} else document.getElementById("loirepass").style.display = "none";
-
+} else { 
+    document.getElementById("loirepass").style.display = "none";
+    console.log(__repass)
+}
 
 
 if (kiemtra) {

@@ -132,14 +132,7 @@ function mainProduct() {
 mainProduct();
 
 
-const listProduct = [
-    {
-        id : 1,
-        img : "img/asset 8.jpeg",
-        name : "Gourmet Love Chocolate/ Romantic Heart - S01",
-        price : "625.000"
-    }
-]
+
 
 
 
